@@ -7,6 +7,10 @@
 If the item you're after is currently not in stock and you want to pick it up as soon as you can, this **Telegram Bot**
 will help!
 
+## How it looks like
+
+![pic](https://i.imgur.com/CpQIdtG.jpeg)
+
 ## Usage
 ```
 usage: pickup_check.py [-h] token chat_id model zipcode
