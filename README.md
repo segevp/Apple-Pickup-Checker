@@ -9,9 +9,10 @@ will help!
 
 ## How it looks like
 
-![pic](https://i.imgur.com/CpQIdtG.jpeg)
+<img src="https://i.imgur.com/CpQIdtG.jpeg" width="350">
 
 ## Usage
+
 ```
 usage: pickup_check.py [-h] token chat_id model zipcode
 
@@ -26,9 +27,11 @@ optional arguments:
 ```
 
 ## Quick Notes
+
 - The given **model** should be precise! (Example: "MLTT3LL/A" is iPhone 13 Pro 128GB Sierra Blue
-)
+  )
 - The **token** is for a Telegram bot token (Create your own bot with @BotFather on Telegram)
-- **chat_id** is a unique identifier for the target chat or username of the target channel (in the format @channelusername)
+- **chat_id** is a unique identifier for the target chat or username of the target channel (in the format
+  @channelusername)
 - I've currently only tested it on american **zipcodes**, but it should also work with city names.
 - My recommendation is running the program through a crontab with the interval you'd like.
