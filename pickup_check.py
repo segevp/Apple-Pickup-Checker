@@ -22,8 +22,7 @@ def get_args():
     parser.add_argument("chat_id")
     parser.add_argument("model")
     parser.add_argument("zipcode")
-    args = parser.parse_args()
-    print(args)
+    return parser.parse_args()
 
 
 def run(model, zipcode, token, chat_id):
